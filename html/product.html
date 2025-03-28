@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Details</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <header>
+      <h1>IERG4210 Shopping Website</h1>
+  </header>
+
+  <nav>
+    <div class="shopping-list-container">
+      <button class="shopping-list-nametag">
+        Shopping List
+      </button>
+
+      <div class="shopping-list">
+        <h3>Shopping List</h3>
+        <ul id="cart-items"></ul>
+        <p id="cart-total">Total: $0.00</p>
+        <a href="payment.html">
+          <button id="checkout">Checkout</button>
+        </a>
+      </div>
+    </div>
+
+    <ul class="navigation">
+      <p class="navigationPath" id="navigation-path"></p>
+      <li><p>></p></li>
+      <p class="navigationProductPath" id="navigation-product-path"></p>
+    </ul>
+
+    <button class="admin-panel-nametag" id="login-button">
+      <a href="login.html">Login</a>
+    </button>
+
+    <div class="user" id="user-display">Guest</div>
+  </nav>
+
+  <nav>
+    <ul class="category" id="category-list">
+
+    </ul>
+  </nav>
+
+  <main id="product-description">
+
+  </main>
+
+  <footer>
+    <p>@LEE Sze-man 1155193157</p>
+    <p>All photo is downloaded from the New Balance and Nike Website</p>
+  </footer>
+
+  <script src="listScript.js"></script>
+
+</body>
+</html>
